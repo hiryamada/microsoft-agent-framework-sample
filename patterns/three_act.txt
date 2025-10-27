@@ -1,0 +1,5 @@
+The three-act structure:
+
+- **Act 1 (Setup)**: Explains the background and presents the challenge and goal.
+- **Act 2 (Conflict)**: Presents the problem, conflict, and obstacles and describes the efforts to resolve them.
+- **Act 3 (Resolution)**: The problem is resolved, and the results and lessons learned are presented.

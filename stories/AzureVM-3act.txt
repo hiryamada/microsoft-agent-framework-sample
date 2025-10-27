@@ -1,0 +1,5 @@
+Act 1 – The Challenge: Contoso Inc., a fast-growing startup, struggled with unpredictable traffic spikes and costly hardware upgrades that slowed innovation.
+
+Act 2 – The Solution: By migrating to Azure Virtual Machines, they gained scalable, secure, and customizable infrastructure—deploying new environments in minutes and optimizing costs with pay-as-you-go flexibility.
+
+Act 3 – The Impact: With Azure VM, Contoso accelerated product launches, improved uptime, and expanded globally—turning infrastructure into a strategic advantage.

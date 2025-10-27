@@ -1,0 +1,12 @@
+### Act 1 (Setup): Challenges and Goals
+Contoso Ltd. needed to process and analyze data based on multiple trigger events in its daily operations. However, its traditional infrastructure environment was difficult to scale, resulting in ongoing costs even when the system was not in use. Furthermore, frequent operational management efforts distracted from innovation.
+
+--
+
+### Act 2 (Conflict): Implementing the Solution
+Contoso therefore adopted Azure Functions as a solution for efficient resource management while reducing waste. Time- and event-based automatic triggering capabilities eliminated the need for server management when building applications, enabling resources to be used only when needed. Integrated tools and a simplified deployment process also created a platform environment for rapid service deployment.
+
+--
+
+### Act 3 (Resolution): Results and Impact
+After implementing Azure Functions, Contoso achieved significant cost savings and improved efficiency. The pay-per-use model reduced unnecessary expenses, allowing the entire team to focus on more important projects and new service development. As a result, the project rush accelerated and customer satisfaction improved. Azure Functions has become more than just a tool; it has become an important element supporting business growth.
