@@ -1,0 +1,23 @@
+### Indiana Pacers Revolutionize Fan Experience with Azure Functions: A STAR Story
+
+#### **Situation:**
+The Pacers Sports & Entertainment (PS&E) team was driven to enhance accessibility within their live basketball games for fans who are deaf, hard of hearing, or non-English speakers. Traditional speech-to-text solutions were too slow and imprecise to capture the fast-paced, dynamic commentary of live games. Without a custom solution, many fans couldn't fully enjoy the immersive basketball experience at Gainbridge Fieldhouse.
+
+#### **Task:**
+The team set out to create a first-of-its-kind real-time captioning system. The solution needed to process speech instantly, recognize game-specific vocabulary (like player names and basketball slang), and display captions on both arena screens and mobile apps—all without noticeable delays. 
+
+#### **Action:**
+By leveraging **Azure Functions**—Microsoft's serverless compute service—alongside other Azure tools like Azure AI Foundry and Azure SignalR Service, the team implemented an **event-driven architecture**. Through Azure Functions:
+- Audio commentary was processed in real time and seamlessly synchronized into live text on mobile apps and arena screens.
+- The captions were kept in sync across all platforms without delays by routing them through a **single, consistent source**.
+- Microsoft Azure AI Speech tools were used to train custom models with curated game audio and player data, increasing transcription accuracy vastly.
+
+Azure Functions ensured smooth workflow integration with PS&E’s existing digital infrastructure, allowing for rapid deployment without disrupting operations. Additionally, the modular, serverless nature of Azure Functions provided a scalable and future-ready solution for incorporating more languages and features, such as sentiment tracking and personalization.
+
+#### **Result:**
+The result was a game-changing, **AI-powered captioning system** with a remarkable **1.14% error rate**. This innovative solution:
+1. Empowered fans with accessibility needs, delivering instant captions both at the game and on their devices.
+2. Reduced model training time by **99.97%**, from five days to just two minutes.
+3. Transformed attendees' experiences, from live games to mobile apps.
+ 
+The Pacers didn’t just make live games more inclusive—they also redefined what’s possible in sports entertainment with Azure Functions and AI. The success of the project positioned PS&E as pioneers in using AI to create meaningful fan engagement at massive scales.

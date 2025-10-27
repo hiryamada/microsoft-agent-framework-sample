@@ -18,6 +18,7 @@ IList<AITool> tools = [
     AIFunctionFactory.Create(LoadAllStoryPatterns),
     AIFunctionFactory.Create(SaveStory),
     AIFunctionFactory.Create(LoadAllStories),
+    AIFunctionFactory.Create(GetPageContent),
 ];
 
 var instructions = """
@@ -146,4 +147,21 @@ static string LoadAllStories()
         return $"Stori Name: {name}\nContent:\n{content}\n";
     });
     return string.Join("\n---\n", stories);
+}
+
+[Description("Get the main content text of a web page by URL.")]
+static string GetPageContent(
+    [Description("the url of the page")] string url)
+{
+    try
+    {
+        using var httpClient = new HttpClient();
+        var html = httpClient.GetStringAsync(url).Result;
+        var text = System.Text.RegularExpressions.Regex.Replace(html, "<.*?>", string.Empty);
+        return text;
+    }
+    catch (Exception ex)
+    {
+        return $"Error: Failed to get the contents: {ex.Message}";
+    }
 }
